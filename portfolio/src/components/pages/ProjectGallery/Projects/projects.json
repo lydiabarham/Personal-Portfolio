@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Flick Finder",
+      "image": "https://placehold.co/",
+      "deployed": "https://dezmondo7.github.io/movie-recommender/",
+      "gitHub": "https://github.com/Dezmondo7/movie-recommender"
+    },
+    {
+      "id": 2,
+      "name": "Code Quiz",
+      "image": "https://placehold.co/",
+      "deployed": "https://lydiabarham.github.io/Code-Quiz/",
+      "gitHub": "https://github.com/lydiabarham/Code-Quiz"
+    },
+    {
+      "id": 3,
+      "name": "Weather dashboard",
+      "image": "https://placehold.co/",
+      "deployed": "https://lydiabarham.github.io/Weather-Dashboard/",
+      "gitHub": "https://github.com/lydiabarham/Weather-Dashboard"
+    },
+    {
+      "id": 4,
+      "name": "Bootstrap Portfolio",
+      "image": "https://placehold.co/",
+      "deployed": "https://lydiabarham.github.io/Bootstrap-Portfolio/",
+      "gitHub": "https://github.com/lydiabarham/Bootstrap-Portfolio"
+    },
+    {
+      "id": 5,
+      "name": "Workday Scheduler",
+      "image": "https://placehold.co/",
+      "deployed": "https://lydiabarham.github.io/Work-Day-Scheduler/",
+      "gitHub": "https://github.com/lydiabarham/Work-Day-Scheduler"
+    },
+    {
+      "id": 6,
+      "name": "Password Generator",
+      "image": "https://placehold.co/",
+      "deployed": "https://lydiabarham.github.io/password-generator/",
+      "gitHub": "https://github.com/lydiabarham/password-generator"
+    }
+  ]
+  

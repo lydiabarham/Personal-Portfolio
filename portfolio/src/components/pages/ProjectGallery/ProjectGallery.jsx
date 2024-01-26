@@ -1,12 +1,20 @@
 import React from 'react';
+import ProjectCard from './Projects/ProjectCard';
+import projectData from './Projects/projects.json';
 
 function ProjectGallery() {
   return (
     <div>
-      <h1>Project Gallery</h1>
-      <p>
-        Projects will display here
-      </p>
+      {projectData.map((project) => (
+        <ProjectCard
+          id={project.id}
+          key={project.id}
+          name={project.name}
+          image={project.image}
+          occupation={project.occupation}
+          location={project.location}
+        />
+      ))}
     </div>
   );
 }
