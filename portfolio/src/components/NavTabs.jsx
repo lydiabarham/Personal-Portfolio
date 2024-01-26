@@ -1,43 +1,50 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-function NavTabs(props) {
+function NavTabs() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => props.handlePageChange('Home')}
-          className="nav-link"
+        <NavLink
+          to="/"
+          end
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
         >
           Home
-        </a>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => props.handlePageChange('About')}
-          className="nav-link"
+        <NavLink
+          to="about"
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
         >
           About
-        </a>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <a
-          href="#blog"
-          onClick={() => props.handlePageChange('Blog')}
-          className="nav-link"
+        <NavLink
+          to="blog"
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
         >
-          Blog
-        </a>
+          Project Gallery
+        </NavLink>
       </li>
       <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => props.handlePageChange('Contact')}
-          className="nav-link"
+        <NavLink
+          to="contact"
+          end
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
         >
           Contact
-        </a>
+        </NavLink>
       </li>
     </ul>
   );
