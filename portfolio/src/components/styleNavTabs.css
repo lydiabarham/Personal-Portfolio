@@ -7,15 +7,23 @@
 }
 
 .nav-tabs {
-    background-color: var(--brown);
-    border-radius: 0%;
+    margin-top: -40px;
+    height: 40px;
 }
 
 .nav-tabs .nav-link {
     color: var(--beige);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
 }
 
 .nav-tabs .nav-link:hover {
-    color: var(--orange);
+    color: var(--green);
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    border-radius: 0%;
+    background-color: var(--brown);
+    color: var(--beige);
+    opacity: 0.8;
 }

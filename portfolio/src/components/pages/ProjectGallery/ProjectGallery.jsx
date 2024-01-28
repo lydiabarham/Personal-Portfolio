@@ -1,10 +1,11 @@
 import React from 'react';
 import ProjectCard from './Projects/ProjectCard';
 import projectData from './Projects/projects.json';
+import './styleProject.css'
 
 function ProjectGallery() {
   return (
-    <div>
+    <div className='home-container'>
       {projectData.map((project) => (
         <ProjectCard
           id={project.id}

@@ -1,8 +1,9 @@
 import React from 'react';
+import "./styleContact.css"
 
 function Contact() {
   return (
-    <div>
+    <div className='home-container'>
       <h1>Contact Page</h1>
       <p>
         Contact links and form will go in here
