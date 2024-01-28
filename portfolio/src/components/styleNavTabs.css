@@ -1,0 +1,21 @@
+:root {
+    --green: #a59132;
+    --beige: #fffbdb;
+    --dark: #30362f;
+    --brown: #625834;
+    --orange: #da7422;
+}
+
+.nav-tabs {
+    background-color: var(--brown);
+    border-radius: 0%;
+}
+
+.nav-tabs .nav-link {
+    color: var(--beige);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-tabs .nav-link:hover {
+    color: var(--orange);
+}
