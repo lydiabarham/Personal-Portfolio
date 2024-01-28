@@ -1,0 +1,15 @@
+:root {
+    --green: #a59132;
+    --beige: #fffbdb;
+    --dark: #30362f;
+    --brown: #625834;
+    --orange: #da7422;
+}
+
+.jumbotron {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--beige);
+    color: var(--dark);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
