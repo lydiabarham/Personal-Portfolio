@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 
+
 function ProjectCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={props.name} src={props.image} height="400" />
       </div>
       <div className="content">
         <ul>
