@@ -19,6 +19,7 @@
 
 .nav-tabs .nav-link:hover {
     color: var(--green);
+    border-radius: 0%;
 }
 
 .nav-tabs .nav-item .nav-link.active {

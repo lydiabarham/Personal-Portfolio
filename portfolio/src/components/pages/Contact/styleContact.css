@@ -1,3 +1,11 @@
+:root {
+    --green: #a59132;
+    --beige: #fffbdb;
+    --dark: #30362f;
+    --brown: #625834;
+    --orange: #da7422;
+}
+
 .home-container { 
     background-color: var(--beige);
     opacity: 0.8;

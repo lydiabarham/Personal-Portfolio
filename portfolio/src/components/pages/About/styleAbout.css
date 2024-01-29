@@ -1,0 +1,17 @@
+:root {
+    --green: #a59132;
+    --beige: #fffbdb;
+    --dark: #30362f;
+    --brown: #625834;
+    --orange: #da7422;
+}
+
+.home-container { 
+    background-color: var(--beige);
+    opacity: 0.8;
+    color: #30362f;
+    align-items: center;
+    width: auto;
+    padding: 6%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
