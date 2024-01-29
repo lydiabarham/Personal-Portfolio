@@ -5,8 +5,8 @@ import './styleProject.css'
 
 function ShowContent(props) {
   return (
-    <>
       <div className="content">
+        <div>
         <ul>
           <li className="project-name">
             {props.name}
@@ -19,19 +19,22 @@ function ShowContent(props) {
       <div className='project-description'>
         <p className="card-text"> {props.description} </p>
       </div>
-    </>
+      </div>
   )
 }
 
+
 function ProjectCard(props) {
   const [showContent, setShowContent] = useState(false);
+const [isContentVisible, setContentVisible] = useState(false);
 
   const toggleContent = () => {
     setShowContent(!showContent);
+    setContentVisible(!isContentVisible);
   };
 
   return (
-    <div className="card" onClick={toggleContent}>
+    <div className={isContentVisible ? 'card expanded' : 'card'} onClick={toggleContent}>
       <div className="img-container">
         <img className='center-fit' alt={props.name} src={props.image} />
       </div>

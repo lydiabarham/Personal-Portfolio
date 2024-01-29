@@ -20,4 +20,5 @@ img {
     display: block;
     margin: auto;
     padding: 30px;
+    max-width: 300px;
 }
