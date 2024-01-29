@@ -11,6 +11,7 @@ function ProjectGallery() {
       <p>
         Below are the projects I have worked on so far. Click on the image for links to the site and to read more about the skills, technologies and concepts used.
       </p>
+      <div className='card-container'>
       {projectData.map((project) => (
         <ProjectCard
           key={project.id} 
@@ -22,6 +23,7 @@ function ProjectGallery() {
           description={project.description}
         />
       ))}
+    </div>
     </div>
     </>
   );
