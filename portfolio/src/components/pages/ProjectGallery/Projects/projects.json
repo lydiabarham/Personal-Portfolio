@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Flick Finder",
-      "image": "../../../../../public/images/movie.png",
+      "image": "../../../../../public/ProjectImages/movie.png",
       "deployed": "https://dezmondo7.github.io/movie-recommender/",
       "gitHub": "https://github.com/Dezmondo7/movie-recommender",
       "description": "This group project uses mutliple APIs to create a movie recommender website. The user chooses a film they've enjoyed, confirms their selection, and then are presented with a series of recommended films that they can add to their watchlist."
@@ -10,7 +10,7 @@
     {
       "id": 2,
       "name": "Code Quiz",
-      "image": "../../../../../public/images/quiz.png",
+      "image": "../../../../../public/ProjectImages/quiz.png",
       "deployed": "https://lydiabarham.github.io/Code-Quiz/",
       "gitHub": "https://github.com/lydiabarham/Code-Quiz",
       "description": "This project involves a simple code quiz, users are prompted to answer questions, losing 10 seconds for incorrect answers. At the end of the quiz the user can enter their initials and highscores are saved in local storage."
@@ -18,7 +18,7 @@
     {
       "id": 3,
       "name": "Weather dashboard",
-      "image": "../../../../../public/images/weather.png",
+      "image": "../../../../../public/ProjectImages/weather.png",
       "deployed": "https://lydiabarham.github.io/Weather-Dashboard/",
       "gitHub": "https://github.com/lydiabarham/Weather-Dashboard",
       "description": "This weather site uses the Open Weather Map API to show the forecast in different cities for the next five days. Users empty the city, or choose from their recent searches and the current and future weather data displays."
@@ -26,7 +26,7 @@
     {
       "id": 4,
       "name": "Bootstrap Portfolio",
-      "image": "../../../../../public/images/portfolio.png",
+      "image": "../../../../../public/ProjectImages/portfolio.png",
       "deployed": "https://lydiabarham.github.io/Bootstrap-Portfolio/",
       "gitHub": "https://github.com/lydiabarham/Bootstrap-Portfolio",
       "description": "An earlier version of my portfolio, this project uses Bootstrap to create a responsive site containing the projects and skills I had developed at the time."
@@ -34,7 +34,7 @@
     {
       "id": 5,
       "name": "Workday Scheduler",
-      "image": "../../../../../public/images/scheduler.png",
+      "image": "../../../../../public/ProjectImages/scheduler.png",
       "deployed": "https://lydiabarham.github.io/Work-Day-Scheduler/",
       "gitHub": "https://github.com/lydiabarham/Work-Day-Scheduler",
       "description": "This is a site built using Dayjs to create a responsive daily planner. It allows users to see the current time and log events throughout the day, past events display in a different colour."
@@ -42,7 +42,7 @@
     {
       "id": 6,
       "name": "Password Generator",
-      "image": "../../../../../public/images/password.png",
+      "image": "../../../../../public/ProjectImages/password.png",
       "deployed": "https://lydiabarham.github.io/password-generator/",
       "gitHub": "https://github.com/lydiabarham/password-generator",
       "description": "This project was one of my first using JavaScript. A user enters the number and types of characters they wish the password to contain and a random password is generated."

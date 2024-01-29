@@ -8,7 +8,7 @@ function ShowContent(props) {
     <>
       <div className="content">
         <ul>
-          <li style={{ textTransform: 'uppercase' }} className="project-name">
+          <li className="project-name">
             {props.name}
           </li>
           <li>
