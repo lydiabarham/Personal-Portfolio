@@ -37,7 +37,7 @@ function ProjectCard(props) {
     <div className='card-container'>
       <div className={isContentVisible ? 'card expanded' : 'card'} onClick={toggleContent}>
         <div className="img-container">
-          <img className='center-fit' alt={props.name} src={props.image} />
+          <img className='center-fit' alt={props.name} src={props.image}/>
         </div>
         {showContent && <ShowContent {...props} />}
       </div>
