@@ -18,9 +18,38 @@
     border-bottom: var(--green) solid 3px;
 }
 
+.lead {
+    font-weight: 300 !important;
+    font-size: medium !important;
+    color: var(--beige);
+    background-color: var(--brown);
+    opacity: 0.5;
+}
+
 .container h1 {
     font-size: 50px;
     font-weight: 400;
     background-color: var(--beige);
     opacity: 0.5;
+}
+
+@media screen and (min-width: 1048px) {
+    .jumbotron {
+        height: 400px;
+    }
+    .container h1 {
+        font-size: 60px;
+    }    
+    .lead {
+        font-size: large !important;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .jumbotron {
+        height: 500px;
+    }
+    .container h1 {
+        font-size: 70px;
+    }    
 }
