@@ -1,16 +1,26 @@
 [
     {
-      "id": 1,
+        "id": 1,
+        "name": "Current Role",
+        "alt": "",
+        "image": "",
+        "description": "AI currently work as an Education, Communication and Outreach Officer for Veolia. It is my job to promote recycling through planning and developing high-quality communications projects and delivering outreach and education to stakeholders and the public in the borough where I work. I am able to develop engaging and accurate content and communicate skillfully.",
+        "date": "2023-present"
+      },
+      {
+      "id": 2,
       "name": "Down the Radish Hole",
       "alt": "Streetfood trading stall",
       "image": "../../../../../public/AboutImages/Img_DTRH.jpg",
-      "description": "At the end of 2021, I started my own street food business. Inspired to offer healthy, sustainable food to the local community, I built the business from the ground up. I came up with the idea, wrote a business plan, secured start up funding, and then got to work procuring equipment and booking in events. My hardwork, dedication and commitment, coupled with organisational and project management skills, lead to successful trading, serving up to 150 hot meals to hungry customers."
+      "description": "At the end of 2021, I started my own street food business. Inspired to offer healthy, sustainable food to the local community, I built the business from the ground up. I came up with the idea, wrote a business plan, secured start up funding, and then got to work procuring equipment and booking in events. My hardwork, dedication and commitment, coupled with organisational and project management skills, lead to successful trading, serving up to 150 hot meals to hungry customers.",
+      "date": "2021-2023"
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Social Media",
       "alt": "My business social media page",
       "image": "../../../../../public/AboutImages/DTRH_screenshot.png",
-      "description": "As well as the creativity of planning and preparing menus, I managed the social media presence and created visual and written content to promote the business. Creating a presence on social media meant planning, preparing and photographing delicious looking food and putting it together in interesting ways. Using photoshop I created an individual wallpaper for my socials page and managed how it would continue from one post to the next."
+      "description": "As well as the creativity of planning and preparing menus, I managed the social media presence and created visual and written content to promote the business. Creating a presence on social media meant planning, preparing and photographing delicious looking food and putting it together in interesting ways. Using photoshop I created an individual wallpaper for my socials page and managed how it would continue from one post to the next.",
+      "date": "2021-2023"
     }
 ]

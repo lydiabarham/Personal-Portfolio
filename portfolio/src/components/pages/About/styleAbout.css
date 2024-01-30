@@ -23,11 +23,22 @@
 }
 
 .about-text {
-    background-color: rgb(218, 116, 34, 0.5);
     padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: large;
+    font-weight: lighter;
 }
 
-.about-text:hover {
-    background-color: var(--beige);
-    font-size: larger;
+@media screen and (min-width: 800px) {
+    .about-img {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about-img {
+        max-width: 500px;
+        float: right;
+        margin-top: 100px;
+    }
 }
