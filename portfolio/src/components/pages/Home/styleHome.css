@@ -6,7 +6,7 @@
     --orange: #da7422;
 }
 
-.home-container { 
+.home-box { 
     background-color: var(--beige);
     opacity: 0.8;
     color: #30362f;
@@ -16,8 +16,26 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-img {
+.head-shot {
     display: block;
     margin: auto;
     padding: 30px;
+}
+
+br {
+    height: 20px;
+}
+
+@media screen and (min-width: 1048px) {
+    .head-shot {
+        max-width: 500px;
+        float: right;
+    }
+    .home-text {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .prof-heading {
+        padding-top: 20px;
+    }
 }

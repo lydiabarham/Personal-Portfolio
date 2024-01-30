@@ -13,17 +13,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Home
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="about"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          About
+          Me Now
         </NavLink>
       </li>
       <li className="nav-item">
@@ -33,7 +23,17 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Project Gallery
+          My Projects
+        </NavLink>
+      </li>
+      <li className="nav-item">
+        <NavLink
+          to="about"
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >
+          My History
         </NavLink>
       </li>
       <li className="nav-item">
@@ -44,7 +44,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Contact
+          Contact Me
         </NavLink>
       </li>
     </ul>

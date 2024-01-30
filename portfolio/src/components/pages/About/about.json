@@ -9,7 +9,7 @@
       },
       {
       "id": 2,
-      "name": "Down the Radish Hole",
+      "name": "Business Owner",
       "alt": "Streetfood trading stall",
       "image": "../../../../../public/AboutImages/Img_DTRH.jpg",
       "description": "At the end of 2021, I started my own street food business. Inspired to offer healthy, sustainable food to the local community, I built the business from the ground up. I came up with the idea, wrote a business plan, secured start up funding, and then got to work procuring equipment and booking in events. My hardwork, dedication and commitment, coupled with organisational and project management skills, lead to successful trading, serving up to 150 hot meals to hungry customers.",
@@ -17,10 +17,18 @@
     },
     {
       "id": 3,
-      "name": "Social Media",
+      "name": "Chef",
       "alt": "My business social media page",
       "image": "../../../../../public/AboutImages/DTRH_screenshot.png",
-      "description": "As well as the creativity of planning and preparing menus, I managed the social media presence and created visual and written content to promote the business. Creating a presence on social media meant planning, preparing and photographing delicious looking food and putting it together in interesting ways. Using photoshop I created an individual wallpaper for my socials page and managed how it would continue from one post to the next.",
-      "date": "2021-2023"
-    }
+      "description": "After university, I went to explore my love and passion for food to become a chef, working hard over 5 years to progress in the industry. As well as the creativity of planning and preparing menus, I created content to promote the businesses I worked for. Creating a presence on social media meant planning, preparing and photographing delicious looking food and putting it together in interesting ways. Using photoshop I created an individual wallpaper for my own business socials pages.",
+      "date": "2018-2023"
+    },
+    {
+        "id": 4,
+        "name": "Education",
+        "alt": "",
+        "image": "",
+        "description": "I studied English at Durham University between 2014 and 2018, taking an extra year to study at the Jagiellonian Institut in Krakow to expand my studies into Philosophy, History and Politics. I graduated in summer 2018 with first class honours.",
+        "date": "2014-2018"
+      }
 ]
