@@ -13,7 +13,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Me Now
+          Present
         </NavLink>
       </li>
       <li className="nav-item">
@@ -23,7 +23,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          My Projects
+          Projects
         </NavLink>
       </li>
       <li className="nav-item">
@@ -33,7 +33,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          My History
+          Past
         </NavLink>
       </li>
       <li className="nav-item">
@@ -44,7 +44,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Contact Me
+          Contact
         </NavLink>
       </li>
     </ul>
