@@ -2,6 +2,7 @@ import React from 'react';
 import "./styleContact.css";
 import { Link } from 'react-router-dom'
 import ContactForm from './ContactForm';
+import PDFViewer from './PDFViewer';
 
 const Mailto = ({ email, subject = '', body = '', children }) => {
   let params = subject || body ? '?' : '';
@@ -32,6 +33,10 @@ function Contact() {
         <span className='contact-span'></span>
         <Link target="_blank" className="contact-link git-hub" to="https://github.com/lydiabarham">GitHub</Link>
       </div>
+
+      <h2 className='cv-header'>My CV</h2>
+
+      <PDFViewer />
 
     </div>
   );

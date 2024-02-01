@@ -32,7 +32,7 @@ function AboutCard(props) {
 function About(props) {
   return (
     <div className='about-display'>
-      <h1>History</h1>
+      <h1>My Journey</h1>
       <p>
         This section outlines some of the highlights of my career and education so far. 
       </p>
