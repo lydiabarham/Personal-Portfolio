@@ -15,3 +15,35 @@
     padding: 6%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.contact-link {
+    color: var(--dark);
+}
+
+.contact-link:hover {
+    color: var(--orange);
+    font-size: larger;
+}
+
+.git-hub {
+    padding: 30px;
+}
+
+.submit-btn {
+    background-color: var(--green);
+    border: var(--green);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--beige);
+    margin: 20px;
+}
+
+.submit-btn:hover {
+    font-size: larger;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    border-radius: 0% !important;
+    border: solid var(--green) 1px !important;
+}
