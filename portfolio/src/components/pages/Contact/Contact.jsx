@@ -12,11 +12,11 @@ function Contact() {
       <p>
         Contact links and form will go in here
       </p>
+      <ContactForm/>
       <div className='link-box'>
           <Link target="_blank" className="link" to="https://www.linkedin.com/in/lydia-barham-5a92962b0/">LinkedIn</Link> 
           <Link target="_blank" className="link" to="https://github.com/lydiabarham">GitHub</Link>
         </div>
-      <ContactForm/>
       
     </div>
   );
