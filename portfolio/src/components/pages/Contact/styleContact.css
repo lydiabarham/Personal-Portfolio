@@ -47,3 +47,18 @@
     border-radius: 0% !important;
     border: solid var(--green) 1px !important;
 }
+
+.mail-link {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.mail-link:hover {
+    color: var(--orange);
+    font-size: larger;
+}
+
+.phone-number {
+    
+    padding-top: 20px;
+}
