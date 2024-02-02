@@ -1,6 +1,7 @@
 import React from "react";
 import "./styleContact.css";
 
+{/*create PDFViewer component using inbuilt react hook */} 
 const PDFViewer = () => {
  return (
  <div>

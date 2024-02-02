@@ -4,7 +4,7 @@ import aboutData from "./about.json"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-
+{/*Create about/history section function using json object data into vertical timeline from React hook*/} 
 function AboutCard(props) {
   return (
   <div className="about-section">
@@ -28,7 +28,7 @@ function AboutCard(props) {
   )
 }
 
-
+{/*create About component reading AboutCard function*/} 
 function About(props) {
   return (
     <div className='about-display'>

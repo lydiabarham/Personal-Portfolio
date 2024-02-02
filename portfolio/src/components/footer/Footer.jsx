@@ -1,6 +1,7 @@
 import React from 'react';
 import './styleFooter.css'
 
+{/*create Footer component */} 
 function Footer() {
   return (
     <>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './styleProject.css'
 
-
+{/* create show content component to display content on click*/} 
 function ShowContent(props) {
   return (
     <div className="content">
@@ -23,7 +23,7 @@ function ShowContent(props) {
   )
 }
 
-
+{/*create ProjectCard component, displaying content as toggleContent onClick */} 
 function ProjectCard(props) {
   const [showContent, setShowContent] = useState(false);
   const [isContentVisible, setContentVisible] = useState(false);

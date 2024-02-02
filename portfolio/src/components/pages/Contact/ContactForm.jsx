@@ -3,11 +3,14 @@ import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 import "./styleContact.css";
 
+{/*Personal keys needed for emailjs */} 
 const REACT_APP_SERVICE_ID = "service_sh4ltnd";
 const REACT_APP_TEMPLATE_ID = "template_w2t16fj";
 const REACT_APP_PUBLIC_KEY = "a4bYZAAuidl7Hx79U";
 
+{/*Create Contact Form Component */} 
 const ContactForm = () => {
+  {/*define useForm function */} 
   const {
     register,
     handleSubmit,
@@ -15,6 +18,7 @@ const ContactForm = () => {
     formState: { errors }
   } = useForm();
 
+  {/*manage useState and form submissions/timeout*/} 
   const [disabled, setDisabled] = useState(false);
   const [alertInfo, setAlertInfo] = useState({
     display: false,
@@ -30,6 +34,7 @@ const ContactForm = () => {
     }, 5000);
   };
 
+  {/*define onSubmit function */} 
   const onSubmit = async (data) => {
     const { name, email, subject, message } = data;
     try {
@@ -49,6 +54,7 @@ const ContactForm = () => {
         REACT_APP_PUBLIC_KEY
       );
 
+      {/*alert user of success/error*/} 
       toggleAlert('Form submission was successful!', 'success');
     } catch (e) {
       console.error(e);
@@ -59,6 +65,7 @@ const ContactForm = () => {
     }
   };
 
+  {/*write form component*/} 
   return (
     <div className='ContactForm'>
       <div className='container'>
@@ -116,6 +123,7 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
+      {/*write alert compontent*/} 
       {alertInfo.display && (
         <div
           className={`alert alert-${alertInfo.type} alert-dismissible mt-5`}

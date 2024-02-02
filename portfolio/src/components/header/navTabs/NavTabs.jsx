@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './styleNavTabs.css'
 
+{/*create NavTab compnent, showing where nav links are active/inactive */} 
 function NavTabs() {
   return (
     <ul className="nav nav-tabs">

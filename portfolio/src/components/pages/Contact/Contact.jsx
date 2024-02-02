@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import ContactForm from './ContactForm';
 import PDFViewer from './PDFViewer';
 
+{/* Define Mailto function to call with ContactForm component*/} 
 const Mailto = ({ email, subject = '', body = '', children }) => {
   let params = subject || body ? '?' : '';
   if (subject) params += `subject=${encodeURIComponent(subject)}`;
@@ -12,7 +13,7 @@ const Mailto = ({ email, subject = '', body = '', children }) => {
   return <a className='mail-link' href={`mailto:${email}${params}`}>{children}</a>;
 };
 
-// function to display contact information
+{/*component to display contact information, links and read PDFViewer and ContactForm components */}  
 function Contact() {
   return (
     <div className='contact-container'>

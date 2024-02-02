@@ -3,6 +3,7 @@ import ProjectCard from './Projects/ProjectCard';
 import projectData from './Projects/projects.json';
 import './Projects/styleProject.css'
 
+{/* create ProjectGallery compnent to display ProjectCard components and maps through json object*/} 
 function ProjectGallery() {
   return (
     <>

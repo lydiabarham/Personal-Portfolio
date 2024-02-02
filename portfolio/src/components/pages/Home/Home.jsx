@@ -1,6 +1,7 @@
 import React from 'react';
 import "./styleHome.css";
 
+{/*create Home page component */} 
 function Home() {
   return (
     <div className='home-box'>
