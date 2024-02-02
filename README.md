@@ -10,7 +10,7 @@ The site uses Bootstrap to build a mobile-first design, with media compatability
 
 ![image](https://github.com/lydiabarham/Personal-Portfolio/assets/147499934/bb0910f9-4816-439b-ae36-252619bbfa6d)
 
-DEPLOYED AT: 
+The site is deployed through Netlify at: https://main--effulgent-mooncake-87d394.netlify.app/
 
 ## Table of Contents
 
