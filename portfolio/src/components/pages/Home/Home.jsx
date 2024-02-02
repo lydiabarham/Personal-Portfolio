@@ -7,7 +7,7 @@ function Home() {
     <div className='home-box'>
       <div className='home-cont'>
         <h1>Me Now</h1>
-        <img className='head-shot' src="../../../../public/headshot.jpg" alt='Headshot' width='300px'></img>
+        <img className='head-shot' src="../../../../headshot.jpg" alt='Headshot' width='300px'></img>
         <h3 className='prof-heading'>My Professional Goals</h3>
         <div className='home-text'>
           <p>
