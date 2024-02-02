@@ -19,7 +19,7 @@ function Home() {
         I have turned my problem-solving skills into development skills and transferred my Photoshop skills to UX design principles, creating functioning, user-friendly apps with clean, modern layouts. 
         </p>
         </div>
-        <img className='head-shot' src="../../../../allotment_img.JPG" alt='Allotment' width='300px'></img>
+        <img className='head-shot allotment-shot' src="../../../../allotment_img.JPG" alt='Allotment' width='300px'></img>
         <h3>My Personal Goals</h3>
         <div className='home-text'>
           <p>

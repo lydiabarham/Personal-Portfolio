@@ -20,6 +20,7 @@
     display: block;
     margin: auto;
     padding: 30px;
+    z-index: 3;
 }
 
 br {
@@ -30,6 +31,11 @@ br {
     .head-shot {
         max-width: 500px;
         float: right;
+    }
+    .allotment-shot {
+        margin-top: -30px;
+        max-height: 300px;
+        object-fit: contain;
     }
     .home-text {
         padding-top: 20px;

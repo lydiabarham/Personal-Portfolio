@@ -9,6 +9,7 @@
 .jumbotron {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 300px;
+    position: relative;
     background-image: url("IMG_4244.JPG");
     background-position: center;
     background-size: cover;
