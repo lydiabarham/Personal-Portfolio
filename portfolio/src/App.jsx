@@ -5,9 +5,11 @@ import About from './components/pages/About/About';
 import ProjectGallery from './components/pages/ProjectGallery/ProjectGallery';
 import Contact from './components/pages/Contact/Contact';
 import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
+    <>
     <Router>
       <Header />
       <Routes>
@@ -17,6 +19,9 @@ function App() {
         <Route path="contact/*" element={<Contact />} />
       </Routes>
     </Router>
+    <Footer>
+    </Footer>
+    </>
   );
 }
 
