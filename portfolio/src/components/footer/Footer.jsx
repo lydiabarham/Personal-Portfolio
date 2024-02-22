@@ -1,22 +1,24 @@
 import React from 'react';
 import './styleFooter.css'
 
-{/* Define Mailto function to call with ContactForm component*/} 
-const Mailto = ({ email, subject = '', body = '', children }) => {
-  let params = subject || body ? '?' : '';
-  if (subject) params += `subject=${encodeURIComponent(subject)}`;
-  if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
-
-  return <a className='footer-mail-link' href={`mailto:${email}${params}`}>{children}</a>;
-};
-
-{/*create Footer component */} 
+{/*create Footer component */ }
 function Footer() {
   return (
     <div className='footer'>
-    <Mailto className="footer-mail-link" email="lcbarham9@gmail.com" subject="Hello" body="">
-        Get in touch
-      </Mailto>
+      <ul className='footer-list'>
+      <li><a href="/" className="footer-contact-link">
+        Profile
+      </a></li>
+      <li><a href="/project" className="footer-contact-link">
+        Projects
+      </a></li>
+      <li><a href="/about" className="footer-contact-link">
+        Past
+      </a></li>
+      <li><a href="contact/*" className="footer-contact-link">
+        Contact
+      </a></li>
+      </ul>
     </div>
   );
 }

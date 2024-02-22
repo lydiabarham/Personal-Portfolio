@@ -7,7 +7,7 @@ function Home() {
     <div className='home-box'>
       <div className='home-cont'>
         <h1>Personal <strong>Profile</strong></h1>
-        <img className='head-shot' src="../../../../headshot.jpg" alt='Headshot' width='300px'></img>
+        <img className='head-shot' src="../../../../Headshot.jpg" alt='Headshot' width='300px'></img>
         <h3 className='prof-heading'>Web development</h3>
         <div className='home-text'>
           <ul>
@@ -62,7 +62,7 @@ function Home() {
           Cooking
         </li>
         <li>
-          Music, art, written word
+          Music, art, reading and writing
         </li>
         <li>
           Nature

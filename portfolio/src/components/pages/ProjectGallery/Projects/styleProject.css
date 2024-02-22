@@ -82,8 +82,8 @@
 }
 
 .link:hover {
-    color: var(--orange);
-    font-size: larger;
+    color: var(--dark);
+    font-weight: bolder;
 }
 
 .project-name {

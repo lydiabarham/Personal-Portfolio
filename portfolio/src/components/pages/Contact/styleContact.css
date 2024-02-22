@@ -18,11 +18,12 @@
 
 .contact-link {
     color: var(--dark);
+    text-decoration: none;
+    font-size: larger;
 }
 
 .contact-link:hover {
-    color: #8f6d60;
-    font-size: larger;
+    font-weight: bolder;
 }
 
 .git-hub {
@@ -36,10 +37,12 @@
     padding-right: 10px;
     color: var(--beige);
     margin: 20px;
+    font-size: larger;
 }
 
 .submit-btn:hover {
-    font-size: larger;
+    font-weight: bolder;
+    background-color: var(--brown);
 }
 
 .form-control {
@@ -51,11 +54,11 @@
 .mail-link {
     text-decoration: none;
     color: var(--dark);
+    font-size: larger;
 }
 
 .mail-link:hover {
-    color: var(--orange);
-    font-size: larger;
+    font-weight: bolder;
 }
 
 .phone-number {

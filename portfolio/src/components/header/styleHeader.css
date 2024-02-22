@@ -16,7 +16,6 @@
     color: var(--dark);
     padding-top: 2rem;
     padding-bottom: 1rem;
-    border-bottom: var(--green) solid 3px;
 }
 
 .header-box {
