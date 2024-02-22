@@ -1,9 +1,9 @@
 :root {
-    --green: #a59132;
-    --beige: #fffbdb;
-    --dark: #30362f;
-    --brown: #625834;
-    --orange: #da7422;
+    --green: #CD9C8A;
+    --beige: #FFFFFF;
+    --dark: #1D1D1D;
+    --brown: #1D1D1D;
+    --orange: #FF5100;
 }
 
 .home-container { 
@@ -17,7 +17,7 @@
 }
 
 .home-container .card {
-    background-color: var(--green);
+    background-color: #8f6d60;
     border-radius: 0%;
     margin-bottom: 6%;
     flex-direction: column;
@@ -49,7 +49,7 @@
     display: inline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--beige);
-    background-color: var(--green);
+    background-color: #8f6d60;
     opacity: 0.9;
     position: absolute;
     width: 100%;

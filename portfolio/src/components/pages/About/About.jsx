@@ -12,11 +12,11 @@ function AboutCard(props) {
     <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(218, 116, 34, 0.5', color: '#30362f' }}
-    contentArrowStyle={{ borderRight: '7px solid  #da7422' }}
+    contentStyle={{ background: '#CD9C8A', color: '#1D1D1D' }}
+    contentArrowStyle={{ borderRight: '7px solid  #CD9C8A' }}
     text={props.text}
     date={props.date}
-    iconStyle={{ background: '#da7422', color: '#fff' }}
+    iconStyle={{ background: '#8f6d60', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">{props.name}</h3>
     <p className='about-text'>
@@ -32,7 +32,7 @@ function AboutCard(props) {
 function About(props) {
   return (
     <div className='about-display'>
-      <h1>My Journey</h1>
+      <h1>My <strong>History</strong></h1>
       <p>
         This section outlines some of the highlights of my career and education so far. 
       </p>

@@ -1,15 +1,15 @@
 :root {
     --green: #a59132;
-    --beige: #fffbdb;
-    --dark: #30362f;
-    --brown: #625834;
-    --orange: #da7422;
+    --beige: #DDD0C8;
+    --dark: #323232;
+    --brown: #323232;
+    --orange: #a59132;
 }
 
 .contact-container { 
     background-color: var(--beige);
     opacity: 0.8;
-    color: #30362f;
+    color: var(--dark);
     align-items: center;
     width: auto;
     padding: 6%;
@@ -21,7 +21,7 @@
 }
 
 .contact-link:hover {
-    color: var(--orange);
+    color: #8f6d60;
     font-size: larger;
 }
 
@@ -30,8 +30,8 @@
 }
 
 .submit-btn {
-    background-color: var(--green);
-    border: var(--green);
+    background-color: #8f6d60;
+    border: #8f6d60;
     padding-left: 10px;
     padding-right: 10px;
     color: var(--beige);

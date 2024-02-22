@@ -1,22 +1,34 @@
 :root {
-    --green: #a59132;
-    --beige: #fffbdb;
-    --dark: #30362f;
-    --brown: #625834;
-    --orange: #da7422;
+    --green: #CD9C8A;
+    --beige: #FFFFFF;
+    --dark: #1D1D1D;
+    --brown: #1D1D1D;
+    --orange: #8f6d60;
 }
 
-.footer-heading {
+.footer {
+    background-color: var(--brown);
+    opacity: 0.7;
+    padding: 2%;
+}
+
+.footer-mail-link {
     margin-top: 15px;
     margin-left: 6%;
     margin-right: 6%;
     font-weight: 300 !important;
-    color: var(--beige);
+    font-size: large;
+    color: var(--beige) !important;
     background-color: var(--brown);
     opacity: 0.7;
     padding-left: 5px;
-    z-index: -1;
+    text-decoration: none;
+}
 
+.footer-mail-link:hover {
+    color: var(--green);
+    font-size: larger;
+    font-weight: bold;
 }
 
 .footer-copyright {

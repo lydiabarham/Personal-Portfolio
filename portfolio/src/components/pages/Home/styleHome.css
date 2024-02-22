@@ -1,25 +1,43 @@
 :root {
     --green: #a59132;
-    --beige: #fffbdb;
-    --dark: #30362f;
-    --brown: #625834;
-    --orange: #da7422;
+    --beige: #EAE7DD;
+    --dark: #99775C;
+    --brown: #99775C;
+    --orange: #a59132;
 }
 
 .home-box { 
     background-color: var(--beige);
     opacity: 0.8;
-    color: #30362f;
+    color: var(--brown);
     align-items: center;
     width: auto;
     padding: 6%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h5 {
+    padding-bottom: 8px;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.recipe-box {
+    background-color: var(--brown);
+    color: var(--beige);
+    font-weight: 100;
+    font-size: large;
+    margin: 5%;
+    padding: 15px;
+    opacity: 0.9;
+}
+
 .head-shot {
     display: block;
     margin: auto;
-    padding: 30px;
+    padding: 2%;
     z-index: 3;
 }
 

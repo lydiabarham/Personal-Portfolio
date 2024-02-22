@@ -1,13 +1,13 @@
 :root {
     --green: #a59132;
-    --beige: #fffbdb;
-    --dark: #30362f;
-    --brown: #625834;
-    --orange: #da7422;
+    --beige: #FDF8F0;
+    --dark: #323232;
+    --brown: #323232;
+    --orange: #a59132;
 }
 
 .jumbotron {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 300px;
     position: relative;
     background-image: url("../../../IMG_4244.JPG");
@@ -19,21 +19,22 @@
     border-bottom: var(--green) solid 3px;
 }
 
+.header-box {
+    background-color: var(--beige);
+    opacity: 0.5;
+}
+
 .lead {
     margin-top: 15px;
-    font-weight: 300 !important;
+    font-weight: 400 !important;
     font-size: medium !important;
-    color: var(--beige);
-    background-color: var(--brown);
-    opacity: 0.7;
+    color: var(--brown);
     padding-left: 5px;
 }
 
 .container h1 {
     font-size: 50px;
-    font-weight: 400;
-    background-color: var(--beige);
-    opacity: 0.5;
+    font-weight: 200;
     padding-left: 5px;
 }
 
@@ -41,9 +42,11 @@
     .jumbotron {
         height: 400px;
     }
+
     .container h1 {
         font-size: 60px;
-    }    
+    }
+
     .lead {
         font-size: large !important;
     }
@@ -53,7 +56,8 @@
     .jumbotron {
         height: 500px;
     }
+
     .container h1 {
         font-size: 70px;
-    }    
+    }
 }

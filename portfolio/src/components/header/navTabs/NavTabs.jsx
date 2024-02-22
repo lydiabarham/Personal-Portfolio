@@ -5,6 +5,7 @@ import './styleNavTabs.css'
 {/*create NavTab compnent, showing where nav links are active/inactive */} 
 function NavTabs() {
   return (
+    <div className='nav-bar'>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <NavLink
@@ -14,7 +15,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Present
+          Profile
         </NavLink>
       </li>
       <li className="nav-item">
@@ -49,6 +50,7 @@ function NavTabs() {
         </NavLink>
       </li>
     </ul>
+    </div>
   );
 }
 

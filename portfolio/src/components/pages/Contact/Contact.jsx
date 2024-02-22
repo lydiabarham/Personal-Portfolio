@@ -17,7 +17,7 @@ const Mailto = ({ email, subject = '', body = '', children }) => {
 function Contact() {
   return (
     <div className='contact-container'>
-      <h1>Contact Me</h1>
+      <h1>Contact <strong>Me</strong></h1>
       <p>
         Send me an email using the form below:
       </p>
